@@ -7,6 +7,8 @@ import io.vertx.core.json.JsonObject;
 import io.vertx.example.util.Runner;
 
 /**
+ * Launch this program, then type: {@code ssh -p 3000 admin@localhost}; password is {@code password}.
+ * @see <a href="https://github.com/vert-x3/vertx-examples/tree/master/shell-examples">shell examples</a>
  * @author <a href="mailto:julien@julienviet.com">Julien Viet</a>
  */
 public class DeployShell extends AbstractVerticle {
